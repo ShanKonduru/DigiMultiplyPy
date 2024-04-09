@@ -1,2 +1,5 @@
-@echo off
 poetry install
+
+
+
+

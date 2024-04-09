@@ -12,11 +12,13 @@ def digit_multiplication_count(num):
     return count
 
 def main():
+    numbers_processed = 0
     seed = 277777788888899 # int(input("Enter a number: "))
-    for number in range(seed * 1, seed * 9 ):
+    for number in range(seed * 1, seed * 9):
         repeats = digit_multiplication_count(number)
-        if(repeats >= 11):
-            print(f"For this number '{number}', the number of repeats until a single digit:{repeats}")
+        if repeats >= 11:
+            print(f"So far processed {numbers_processed} out of which - the number '{number}', the number of repeats until a single digit: {repeats}")
+        numbers_processed += 1
 
 if __name__ == "__main__":
     main()
