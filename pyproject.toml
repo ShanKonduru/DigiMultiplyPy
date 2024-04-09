@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "digimultiplypy"
 version = "0.1.0"
-description = "this program designed to findout number of iterations a number could take we start multiplying the individual digits of a number for example 277777788888899"
+description = "this program designed to findout "multiplicative persistence champions" number of iterations a number could take we start multiplying the individual digits of a number for example 277777788888899"
 authors = ["Shan Konduru <shankonduru@gmail.com>"]
 license = "MIT"
 readme = "README.md"
